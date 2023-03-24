@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import Button from './Button';
+import Button from '../Button/Button';
 import styles from './Pagination.module.css';
 
 const Pagination = ({ totalPages, currentPage, onPageChange }) => {
@@ -40,7 +40,7 @@ const Pagination = ({ totalPages, currentPage, onPageChange }) => {
       <input
         type='number'
         className={styles.input}
-        value={inputValue}
+        value={currentPage}
         onChange={handleInputValueChange}
         onKeyDown={handleInputKeyDown}
       />
