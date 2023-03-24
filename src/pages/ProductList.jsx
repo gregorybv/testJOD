@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import ListItem from '../components/ListItem/ListItem';
 import Pagination from '../components/Pagination/Pagination';
+// import styles from './';
 import { products } from '@/products';
 
 
@@ -21,8 +22,8 @@ const ProductList = () => {
   const totalPages = Math.ceil(products.length / PAGE_SIZE);
 
   return (
-    <div>
-      <div style={{display:"flex", gap: '160px', flexWrap: 'wrap', margin: '0 auto'}}>
+    <div style={{margin: '0 15px'}}>
+      <div style={{display:"flex", justifyContent: 'center', gap: '110px', flexWrap: 'wrap', padding: '0 25px'}}>
         {productsToShow.map((product, index) => (
           <ListItem
             key={index}
