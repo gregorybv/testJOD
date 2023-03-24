@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import ListItem from '../components/ListItem';
-import Pagination from '../components/Pagination';
+import Pagination from '../components/Pagination/Pagination';
 
 const products = [
   {
