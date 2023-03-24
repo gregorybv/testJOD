@@ -1,7 +1,6 @@
 import React, { useState } from 'react';
 import ListItem from '../components/ListItem/ListItem';
 import Pagination from '../components/Pagination/Pagination';
-// import styles from './';
 import { products } from '@/products';
 
 
