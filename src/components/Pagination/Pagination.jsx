@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import Button from './Button';
-import styles from '../styles/Pagination.module.css';
+import styles from './Pagination.module.css';
 
 const Pagination = ({ totalPages, currentPage, onPageChange }) => {
   const [inputValue, setInputValue] = useState(currentPage);

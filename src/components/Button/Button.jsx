@@ -1,6 +1,6 @@
 import React from 'react';
 import classNames from 'clsx';
-import styles from '../styles/Button.module.css';
+import styles from './Button.module.css';
 
 const Button = ({ children, color = 'default', variant = 'button', size = 'standard', href, onClick }) => {
   const classes = classNames(styles.button, styles[color], styles[variant], styles[size]);
