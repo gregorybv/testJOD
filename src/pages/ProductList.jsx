@@ -3,8 +3,6 @@ import ListItem from '../components/ListItem/ListItem';
 import Pagination from '../components/Pagination/Pagination';
 import { products } from '@/products';
 
-
-
 const PAGE_SIZE = 2;
 
 const ProductList = () => {
